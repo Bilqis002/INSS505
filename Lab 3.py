@@ -47,6 +47,7 @@ print(x)
 x=math.log2(10)
 print(x)
 y=math.factorial(25)
-print(y)
+
+
 
 
