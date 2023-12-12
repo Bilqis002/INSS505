@@ -1,0 +1,5 @@
+f=open('newtext.txt','a ')
+#f=open('newtext.txt','w')
+f.write('First line.1\nSecond line.2\n')
+print(f.read())
+f.close()

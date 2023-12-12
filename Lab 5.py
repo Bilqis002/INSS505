@@ -1,4 +1,5 @@
 product1=int(input("Enter product1:"))
+#for loop is used when you know the number of iteration required
 for product1 in range(1,product1):
     if(product1%3==0) and (product1%5==0):
         print(product1,"Tic Tac")
@@ -24,6 +25,7 @@ while i < 20:
 input1=int(input('Enter input1:'))
 input1=1
 #using while loop
+#while loop is used when the iteration times is unknown or undefined
 while input1<16:
     input1+=1
     if input1%3==0 and input1%5==0:
