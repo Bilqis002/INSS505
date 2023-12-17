@@ -27,7 +27,7 @@ while attempts > 0:
         currency_choice = input(" Choose EUR as 1   \n")
 
         if EUR == 1:
-            EUR = USD ** int(input("Enter amount to convert:   €"))
+            EUR = USD * int(input("Enter amount to convert:   €"))
             # balance += user input
             print("You have successfully converted $",EUR, "to your account\n")
             print("total amount is $", EUR, "balance")
